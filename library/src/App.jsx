@@ -1,10 +1,13 @@
-import React from 'react'
-import Abtbook from './Abtbook.jsx'
+import React from "react";
+import BookApp from "./pages/BookApp.jsx";
 
-export default function App() {
+function App() {
   return (
     <div>
-      <Abtbook/>
+      <BookApp />
     </div>
-  )
+  );
 }
+
+export default App;
+
